@@ -11,11 +11,12 @@ function frameIt() {
 }
 
 function pressIt() {
-  $("form").on("keydown"),
+  $("form").on("keydown",
   function(key) {
   if (key.which === 071)
   alert ("g was pressed.")
   }
+  )
   return;
 }
 
