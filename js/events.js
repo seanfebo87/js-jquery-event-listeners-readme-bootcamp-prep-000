@@ -17,7 +17,6 @@ function pressIt() {
   alert ("g was pressed.")
   }
   )
-  return;
 }
 
 function submitIt() {
